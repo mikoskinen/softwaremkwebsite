@@ -1,85 +1,231 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset='utf-8'>
+    <meta charset="utf-8">
+    <title>SoftwareMK - High quality Windows Phone apps, ranging from the world's most popular IRC-client to a news apps tailored for Finnish users.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="High quality Windows Phone applications, ranging from the world's most popular IRC-client to a news apps tailored for Finnish users. Windows Phone, Windows 8, ASP.NET and Silverlight development with passion.">
+    <meta name="keywords" content="windows phone, wp7, wp7 apps, windows phone apps, wp7 irc, windows 8, silverlight, asp.net">
+    <meta name="author" content="SoftwareMK">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Le styles -->
+    <link href="http://assets.softwaremk.org/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="http://assets.softwaremk.org/css/docs.css" rel="stylesheet">
+    <link href="http://assets.softwaremk.org/css/grazewp7.css" rel="stylesheet">
+    <link href="http://assets.softwaremk.org/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="http://assets.softwaremk.org/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="http://assets.softwaremk.org/ico/bootstrap-apple-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://assets.softwaremk.org/ico/bootstrap-apple-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://assets.softwaremk.org/ico/bootstrap-apple-114x114.png">
+    <script type="text/javascript">
 
-  <title>mikoskinen/softwaremkwebsite @ GitHub</title>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-30222266-1']);
+        _gaq.push(['_trackPageview']);
 
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #6d1d6a;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #ffffff;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #92e295; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #92e295; }
-    h3 { text-align: center; color: #92e295; }
-    a { color: #92e295; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
 </head>
-
-<body>
-  <a href="https://github.com/mikoskinen/softwaremkwebsite"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-
-  <div id="container">
-
-    <div class="download">
-      <a href="https://github.com/mikoskinen/softwaremkwebsite/zipball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/zip.png"></a>
-      <a href="https://github.com/mikoskinen/softwaremkwebsite/tarball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/tar.png"></a>
+<body data-spy="scroll" data-target=".subnav" data-offset="50" id="home">
+        <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand pull-left" href="http://softwaremk.org" target="_blank">SoftwareMK</a>
+                <div class="nav-collapse">
+                    <ul class="nav pull-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Windows Phone Apps <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="http://www.softwaremk.org/irc" >IRC7</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.softwaremk.org/ipsnoop">IP Snoop</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.softwaremk.org/movieposters">Movie Posters</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.softwaremk.org/ampparit">Ampparit.com Reader</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.softwaremk.org/tekstitv">Teletext Finland</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.softwaremk.org/viihde">Teletext Finland</a>
+                                    </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="http://comany.softwaremk.org/index.php/contact" target="_blank" ><i class="icon-inbox"></i> Email</a>
+                                    <a href="http://www.softwaremk.org/index.html#services" target="_blank" ><i class="icon-home"></i> Company Information</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="container">
+        <div class="inner">
+            <div class="row" id="mobileheader">
+                <div class="jumbotron masthead">
+                    <h2 class="pagination-centered jumbotron">SoftwareMK</h2>
+                    <p>High quality Windows Phone apps, ranging from the world's most popular IRC-client to a news apps tailored for Finnish users.</p>
+                </div>
+            </div>
+            <div class="subnav subnav-fixed">
+                <ul class="nav nav-pills">
+                    <li>
+                        <a href="#home"><i class="icon-home"></i>Home</a>
+                    </li>
+                    <li>
+                        <a href="#apps"><i class="icon-star"></i>Apps</a>
+                    </li>
+                    <li>
+                        <a href="#services"><i class="icon-check"></i>Services</a>
+                    </li>
+                    <li>
+                        <a href="#contact"><i class="icon-question-sign"></i>Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <header id="normalheader" class="jumbotron masthead topheading">
+                        <h2 class="pagination-centered jumbotron">SoftwareMK</h2>
+                        <h1>At SoftwareMK, we have passion for making high quality and polished apps for Windows Platforms.</h1>
+                        <p>High quality Windows Phone apps, ranging from the world's most popular IRC-client to a news apps tailored for Finnish users.</p>
+                    </header>
+                </div>
+            </div>
 
-    <h1><a href="https://github.com/mikoskinen/softwaremkwebsite">softwaremkwebsite</a>
-      <span class="small">by <a href="https://github.com/mikoskinen">mikoskinen</a></span></h1>
+            <section id="apps">
+                <div class="page-header">
+                    <h2>Windows Phone Apps <small>Our High quality Windows Phone apps.</small></h2>
+                </div>
+                            <div class="row marketing">
+                        <div class="span4"> <div class="pagination-centered"> <a href="http://www.softwaremk.org/irc"><img alt="App icon" src="assets/shots/irc7.png"></a> </div> <h4 class="pagination-centered">IRC7</h4> <h5 class="lead">IRC7 is the long waited IRC-client for Windows Phone 7. IRC7 uses the pieces provided by the Windows Phone 7 Mango-update to provide you the ultimate IRC-client for Windows Phone 7.</h5> </div>
+                        <div class="span4"> <div class="pagination-centered"> <a href="http://www.softwaremk.org/ipsnoop"><img alt="App icon" src="assets/shots/ipsnoop.png"></a> </div> <h4 class="pagination-centered">IP Snoop</h4> <h5 class="lead">What is my IP? IP Snoop answers this question. This light-weight app for Windows Phone 7 shows your current IP-address. Supporting live tiles, IP Snoop allows you to keep up-to-date about your current IP-address.</h5> </div>
+                        <div class="span4"> <div class="pagination-centered"> <a href="http://www.softwaremk.org/movieposters"><img alt="App icon" src="assets/shots/movieposters.png"></a> </div> <h4 class="pagination-centered">Movie Posters</h4> <h5 class="lead">Find great wallpapers with Movie Posters. Just enter the name of the movie and you will get a high resolution poster provided by the extensive TMDb. Simple and fast to use.</h5> </div>
+                                </div> 
+                            <div class="row marketing">
+                        <div class="span4"> <div class="pagination-centered"> <a href="http://www.softwaremk.org/ampparit"><img alt="App icon" src="assets/shots/ampparit.png"></a> </div> <h4 class="pagination-centered">Ampparit.com Reader</h4> <h5 class="lead">Finnish app: Ampparit.com Reader tuo suositun Ampparit.com -palvelun sisällön Windows Phone 7 -puhelimeesi. Urheilu, IT ja paikalliset uutiset ovat kaikki mukana tässä WP7-sovelluksessa ja mikä parasta, Ampparit.com Reader on täysin ilmainen.</h5> </div>
+                        <div class="span4"> <div class="pagination-centered"> <a href="http://www.softwaremk.org/tekstitv"><img alt="App icon" src="assets/shots/tekstitv.png"></a> </div> <h4 class="pagination-centered">Teletext Finland</h4> <h5 class="lead">Finnish app: Nopein, toimivin ja suosituin WP7 teksti-tv. Teletext Finland on erinomainen valinta suomalaisen teksti-tv:n ystävälle.</h5> </div>
+                        <div class="span4"> <div class="pagination-centered"> <a href="http://www.softwaremk.org/viihde"><img alt="App icon" src="assets/shots/viihde.png"></a> </div> <h4 class="pagination-centered">Viihde Manager</h4> <h5 class="lead">Finnish app: Viihde Manager tuo Elisa Viihde -palvelun Windows Phone 7 -puhelimeesi. Ohjelman avulla voit tehdä ajastukset ja selata monipuolista ohjelmaopasta mistä tahansa.</h5> </div>
+                                </div> 
+                <p class="pull-right">
+                    <a href="#">Back to top</a></p>
+            </section>
+            <section class="row">
+                <div class="span8">
+                    <section id="services">
+                        <div class="page-header">
+                            <h2>Services <small>High Quality App Development for Windows Platforms</small></h2>
+                        </div>
+                        <h3>We are available for hire</h3>
 
-    <div class="description">
-      www.softwaremk.org
+<p>SoftwareMK is a micro-isv and we're available for hire. We are located in Finland and offer our services in Finnish and English. SoftwareMK is a Microsoft Bizspark company and we have over a decade of experience working with Microsoft technologies. Our company was established in 2008.</p>
+
+<p>Please contact us through email or phone if you are interested in our services.</p>
+
+<h3>Windows Phone App Development and Consulting</h3>
+
+<p>One of our main focuses is on Windows Phone application development. We offer application development services and consulting. We have multiple highly reviewed applications available from the Windows Phone Marketplace.</p>
+
+<h3>Windows 8 Metro App Development</h3>
+
+<p>We are also proud to offer Windows 8 Metro App development services. </p>
+
+<h3>Other .NET Development and Consulting</h3>
+
+<p>In addition to Windows Phone and Windows 8 Metro development we are highly skilled with other .NET-technologies, like ASP.NET MVC and Silverlight. Do not hesitate to contact us.</p>
+
+                    </section>
+                </div>
+                <div class="span4">
+                    <section id="about">
+                        <div class="page-header">
+                            <h2>Technologies <small>How We Build Our Apps</small></h2>
+                        </div>
+                        <ul>
+<li>Windows Phone</li>
+<li>Silverlight</li>
+<li>Windows 8 Metro</li>
+<li>ASP.NET and ASP.NET MVC</li>
+</ul>
+
+                    </section>
+                    <p class="pull-right">
+                        <a href="#">Back to top</a></p>
+                    <section id="contact">
+                        <div class="page-header">
+                            <h2>Contact <small>We would like to hear from you!</small></h2>
+                        </div>
+                        <h4>Address</h4>
+                        Hietatie 34, 40530 Jyväskyla, Finland
+                        <h4>Phone</h4>
+                        (358) 40 592 8946
+                        <h4>Email</h4>
+                        <a href="mailto:info@ohjelmistot.org" class="btn btn-info">info@ohjelmistot.org</a>
+                    </section>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <p class="pull-right">
+                <a href="#">Back to top</a></p>
+            <p>Copyright
+                <a href="http://www.softwaremk.org" target="_blank">SoftwareMK
+                </a>
+                2012 </p>
+            <h6>Created with
+                <a href="https://github.com/mikoskinen/grazewp7">GrazeWP7</a>
+                using the
+                <a href="https://github.com/mikoskinen/graze">Graze templating engine.</a>
+            </h6>
+        </footer>
     </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://assets.softwaremk.org/js/bootstrap.min.js"></script>
+    <script src="http://assets.softwaremk.org/js/easySlider1.7.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            showSlider();
+            showScreenshots();
+        });
 
-    
+        function showSlider() {
+            $("#slider").easySlider({
+                auto: true,
+                continuous: true,
+                pause: 5000,
+                controlsShow: false
+            });
+        }
 
-    
-
-    
-
-    
-
-    
-
-    
-      <h2>Contact</h2>
-      <p>Mikael Koskinen (mijapkos@gmail.com)<br/>      </p>
-    
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="https://github.com/mikoskinen/softwaremkwebsite/zipball/master">zip</a> or
-      <a href="https://github.com/mikoskinen/softwaremkwebsite/tarball/master">tar formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/mikoskinen/softwaremkwebsite</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="https://github.com/mikoskinen/softwaremkwebsite">mikoskinen/softwaremkwebsite</a>
-    </div>
-
-  </div>
-
+        function showScreenshots() {
+            $("#screenshotarea").css("visibility", "visible");
+        }
+        
+    </script>
 </body>
 </html>
