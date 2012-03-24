@@ -1,40 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>SoftwareMK - Apps for Windows Platforms.</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Windows Apps. Windows Phone, Windows 8, ASP.NET and Silverlight development with passion.">
-    <meta name="keywords" content="windows phone, wp7, wp7 apps, windows phone apps, wp7 irc, windows 8, silverlight, asp.net">
-    <meta name="author" content="SoftwareMK">
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!-- Le styles -->
-    <link href="http://assets.softwaremk.org/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="http://assets.softwaremk.org/css/docs.css" rel="stylesheet">
-    <link href="http://assets.softwaremk.org/css/grazewp7.css" rel="stylesheet">
-    <link href="http://assets.softwaremk.org/js/google-code-prettify/prettify.css" rel="stylesheet">
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="http://assets.softwaremk.org/ico/favicon.ico">
-    <link rel="apple-touch-icon" href="http://assets.softwaremk.org/ico/bootstrap-apple-57x57.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="http://assets.softwaremk.org/ico/bootstrap-apple-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="http://assets.softwaremk.org/ico/bootstrap-apple-114x114.png">
-    <script type="text/javascript">
+    <head>
+<!-- Google Website Optimizer Control Script -->
+<script>
+    function utmx_section() { } function utmx() { }
+    (function () {
+        var k = '2638783224', d = document, l = d.location, c = d.cookie; function f(n) {
+            if (c) {
+                var i = c.indexOf(n + '='); if (i > -1) {
+                    var j = c.indexOf(';', i); return escape(c.substring(i + n.
+length + 1, j < 0 ? c.length : j))
+                } 
+            } 
+        } var x = f('__utmx'), xx = f('__utmxx'), h = l.hash;
+        d.write('<sc' + 'ript src="' +
+'http' + (l.protocol == 'https:' ? 's://ssl' : '://www') + '.google-analytics.com'
++ '/siteopt.js?v=1&utmxkey=' + k + '&utmx=' + (x ? x : '') + '&utmxx=' + (xx ? xx : '') + '&utmxtime='
++ new Date().valueOf() + (h ? '&utmxhash=' + escape(h.substr(1)) : '') +
+'" type="text/javascript" charset="utf-8"></sc' + 'ript>')
+    })();
+</script><script>             utmx("url", 'A/B');</script>
+<!-- End of Google Website Optimizer Control Script -->
+<!-- Google Website Optimizer Tracking Script -->
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['gwo._setAccount', 'UA-4901211-9']);
+            _gaq.push(['_setDomainName', 'softwaremk.org']);
+            _gaq.push(['gwo._trackPageview', '/2638783224/test']);
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+<!-- End of Google Website Optimizer Tracking Script -->        
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-30222266-1']);
-        _gaq.push(['_trackPageview']);
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['gwo._setAccount', 'UA-4901211-9']);
+            _gaq.push(['gwo._trackPageview', '/2638783224/test']);
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+        <!-- End of Google Website Optimizer Tracking Script -->
+        <meta charset="utf-8">
+        <title>SoftwareMK - Apps for Windows Platforms.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Windows Apps. Windows Phone, Windows 8, ASP.NET and Silverlight development with passion.">
+        <meta name="keywords" content="windows phone, wp7, wp7 apps, windows phone apps, wp7 irc, windows 8, silverlight, asp.net">
+        <meta name="author" content="SoftwareMK">
+        <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <!-- Le styles -->
+        <link href="http://assets.softwaremk.org/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="http://assets.softwaremk.org/css/docs.css" rel="stylesheet">
+        <link href="http://assets.softwaremk.org/css/grazewp7.css" rel="stylesheet">
+        <link href="http://assets.softwaremk.org/js/google-code-prettify/prettify.css" rel="stylesheet">
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="http://assets.softwaremk.org/ico/favicon.ico">
+        <link rel="apple-touch-icon" href="http://assets.softwaremk.org/ico/bootstrap-apple-57x57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="http://assets.softwaremk.org/ico/bootstrap-apple-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="http://assets.softwaremk.org/ico/bootstrap-apple-114x114.png">
+        <script type="text/javascript">
 
-        (function () {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-30222266-1']);
+            _gaq.push(['_trackPageview']);
 
-    </script>
-</head>
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+    </head>
 <body data-spy="scroll" data-target=".subnav" data-offset="50" id="home">
         <div class="navbar navbar-fixed-top">
         <div class="navbar-inner">
@@ -74,7 +119,7 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="http://company.softwaremk.org/index.php/contact" target="_blank" rel="nofollow"><i class="icon-inbox"></i> Email</a>
+                                    <a href="http://www.softwaremk.org/#contact"><i class="icon-inbox"></i> Email</a>
                                     <a href="http://www.softwaremk.org/#services"><i class="icon-home"></i> Company Information</a>
                                 </li>
                             </ul>
@@ -244,7 +289,7 @@
                         <h4>Phone</h4>
                         (358) 40 592 8946
                         <h4>Email</h4>
-                        <a href="mailto:info@ohjelmistot.org" class="btn btn-info">info@ohjelmistot.org</a>
+                        <a href="mailto:mikael@softwaremk.org" class="btn btn-info">mikael@softwaremk.org</a>
                     </section>
                 </div>
             </section>
