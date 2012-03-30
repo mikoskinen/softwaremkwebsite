@@ -381,6 +381,11 @@ DALnet</p>
                         <div class="page-header">
                             <h2>News <small>The latest info about IRC7. What's in future of this IRC app?</small></h2>
                         </div>
+                            <h3>We have moved</h3>
+                            <p>3/30/2012</p>
+<p>The IRC7 homepage has moved to a new location. From now on it&#8217;s available from <a href="http://www.softwaremk.org/irc">http://www.softwaremk.org/irc</a>. Let us know what you think about the new site. The goal has been to move all our apps into a one site and make it more mobile browsing friendly.</p>
+<p>Our homepage: <a href="http://www.softwaremk.org">http://www.softwaremk.org</a></p>
+<p>IRC7 home: <a href="http://www.softwaremk.org/irc">http://www.softwaremk.org/irc</a></p>
                             <h3>IRC7 1.6 now available!</h3>
                             <p>1/31/2012</p>
 <p>The IRC7 1.6 is now available from the Marketplace. Please, let us know your feedback:</p>
@@ -437,43 +442,6 @@ DALnet</p>
 <li>App review</li>
 </ul>
 <p>Have a happy Christmas!</p>
-                            <h3>1.4 version available with a powerful new alias-engine</h3>
-                            <p>12/6/2011</p>
-<p><a href="http://irc7.org/wp-content/uploads/2011/12/image.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: right; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="right" src="http://irc7.org/wp-content/uploads/2011/12/image_thumb.png" width="148" height="244"></a>We’re happy to report that a new 1.4 version of IRC7 is now available from the Marketplace. The new version adds a powerful alias-engine which we hope will make your IRC experience even more fluid. What is an alias-engine then? In short, it allows you to define shortcuts for your common IRC operations.</p>
-<h2>Basics of usage</h2>
-<p>Let’s go through one example. Previously, if you wanted to OP someone, you had to open the user management and give the new mode from there. But now you can create a shortcut in a form of an alias which allows you to OP the user with only few keystrokes. An example of an OP-alias looks like the following: </p>
-<blockquote><p>/op /mode $channel +o {0}</p>
-</blockquote>
-<p>The alias starts with your desired command word. There can be only one alias with the same command. In the example, the command word is “/op”. The rest of the alias consists of the operation you actually want to execute on the server. </p>
-<p>The IRC7 alias-engine also has few&nbsp; keywords which allow you create more complex aliases. In the example we’re using one of these keywords, the “$channel”. This particular keyword is replaced with channel name where this alias is executed. Our example alias also has one parameter which is marked by the “{0}”. One parameter is always one word, unless it is post fixed with the “-“ character.</p>
-<h2>Availability</h2>
-<p>The aliases are available from the chat window, from the server console and from the startup scripts.</p>
-<h2>Keywords</h2>
-<p>$channel = The current channel where alias is executed. If alias is execute from startup script or from server console, $channel is blank.</p>
-<p>$me = Your current nick.</p>
-<p>{0} = First parameter</p>
-<p>{1} = Second parameter</p>
-<p>{n} = …</p>
-<p>{n}- = Parameter which can contain multiple words. Can be only used as the last parameter of the alias. Please see an example of the /msg alias to see how this can be used.</p>
-<h2>Examples</h2>
-<h4></h4>
-<h4>Alias without parameters</h4>
-<p>/j /join #mychannel</p>
-<h4>Alias with one parameter</h4>
-<p>/j1 /join {0}</p>
-<h4></h4>
-<h4>Alias with two parameters</h4>
-<p>/jp /join {0} {1}</p>
-<h4>Alias with multiple operations</h4>
-<p>/j3 /join {0} | /join {1} | /join {2}</p>
-<h4>Alias with multi-word parameter</h4>
-<p>/msg /privmsg {0} :{1}- </p>
-<h4>Alias with $me and $channel keywords</h4>
-<p>/m /msg $channel hello, my name is $me!</p>
-<h4></h4>
-<h4>Alias which uses other alias</h4>
-<p>/msg /privmsg {0} :{1}-</p>
-<p>/id /msg ident me myPassword</p>
                     </section>
                     <p class="pull-right">
                         <a href="#">Back to top</a></p>
