@@ -60,6 +60,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>http://www.softwaremk.org/irc/help/tags/perform/</loc>
+    <lastmod>2012-05-15</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>http://www.softwaremk.org/irc/help/tags/ssl/</loc>
     <lastmod>2012-05-15</lastmod>
     <changefreq>daily</changefreq>
@@ -101,6 +106,11 @@
   </url>
   <url>
     <loc>http://www.softwaremk.org/irc/help/windows-phone-irc-client-irc7-ssl-tls-support/</loc>
+    <lastmod>2012-05-15</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.softwaremk.org/irc/help/windows-phone-irc-client-irc7-startup-scripts-perform/</loc>
     <lastmod>2012-05-15</lastmod>
     <changefreq>daily</changefreq>
   </url>
