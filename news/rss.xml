@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0">
+	<channel>
+		<title>Adafy Oy news and updated</title>
+		<link>http://www.adafy.com/</link>
+		<description>Adafy Oy news and updates. Adafy does Windows Phone, Windows 8 and Windows Azure developments.</description>
+		<managingEditor>info@adafy.com</managingEditor>
+		<item>
+			<guid isPermaLink="false">welcome-adafy</guid>
+			<link>http://www.adafy.com/news/welcome-adafy</link>
+			<category>company</category>
+			<title>Welcome to Adafy.com!</title>
+			<description>&lt;p&gt;Welcome to our new site. From here you can find our apps and latest news. We're soon going to announce our first Windows 8 application and more, so remember to signup for our newsletter.&lt;/p&gt;
+</description>
+			<pubDate>Mon, 04 Jun 2012 11:05:00 +0100</pubDate>
+		</item>
+		<item>
+			<guid isPermaLink="false">windows-8-viihde-app-release</guid>
+			<link>http://www.adafy.com/news/windows-8-viihde-app-release</link>
+			<category>viihde-windows8</category>
+			<title>Our first Windows 8 app Viihde now available from Store</title>
+			<description>&lt;p&gt;&lt;img src="//news/content/windows8-viihde-release.png" alt="windows8-viihde-release"/&gt;&lt;br/&gt;
+Our first Windows 8 app is &lt;a href="apps.microsoft.com/webpdp/fi-FI/app/viihde/8fb16caf-f1e3-4a36-b00e-3dbd33013c91"&gt;now available&lt;/a&gt; from the Windows Store! The app is an unofficial Elisa Viihde client, aimed for subscribers of the Elisa Viihde service. With the app you can browse TV guide, add recordings, check the latest movies from Video On Demand and do much more.&lt;/p&gt;
+</description>
+			<pubDate>Mon, 03 Sep 2012 14:41:00 +0100</pubDate>
+		</item>
+	</channel>
+</rss>

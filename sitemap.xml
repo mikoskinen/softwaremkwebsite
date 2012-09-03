@@ -160,6 +160,36 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>http://www.adafy.com/news/</loc>
+    <lastmod>2012-09-03</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/news/tags/</loc>
+    <lastmod>2012-09-03</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/news/tags/company/</loc>
+    <lastmod>2012-09-03</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/news/tags/viihde-windows8/</loc>
+    <lastmod>2012-09-03</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/news/welcome-adafy/</loc>
+    <lastmod>2012-09-03</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://www.adafy.com/news/windows-8-viihde-app-release/</loc>
+    <lastmod>2012-09-03</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>http://www.adafy.com/tekstitv/</loc>
     <lastmod>2012-09-03</lastmod>
     <changefreq>daily</changefreq>
