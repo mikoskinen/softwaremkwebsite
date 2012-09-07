@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0">
+	<channel>
+		<title>Viihde uutiset</title>
+		<link>http://www.adafy.com/</link>
+		<description>Viihde on epävirallinen Windows 8 Elisa Viihde app.</description>
+		<managingEditor>info@adafy.com</managingEditor>
+		<item>
+			<guid isPermaLink="false">windows-8-viihde-saatavilla</guid>
+			<link>http://www.adafy.com/viihde-windows8/news/windows-8-viihde-saatavilla</link>
+			<category>viihde-windows8</category>
+			<title>Viihde saatavilla Windows Storesta!</title>
+			<description>&lt;p&gt;Viihde, epävirallinen Windows 8 Elisa Viihde app on nyt &lt;a href="apps.microsoft.com/webpdp/fi-FI/app/viihde/8fb16caf-f1e3-4a36-b00e-3dbd33013c91"&gt;ladattavissa Windows Storesta!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sovelluksen avulla voit selata TV-opasta, lisätä nauhoituksia, tarkistaa videovuokraamon uutuudet ja tehdä paljon muuta. Sovellus on suunnattu TV:n ystäville. Vaikka et olisi Viihde-palvelun tilaaja, voit silti selata TV-opasta ja tutkailla kanavien suosituimpia ohjelmia. Voit lisätä mielenkiintoisesta ohjelmasta muistutuksen, joka näytettään hieman ennen ohjelman alkua.&lt;/p&gt;
+</description>
+			<pubDate>Mon, 03 Sep 2012 14:41:00 +0100</pubDate>
+		</item>
+	</channel>
+</rss>
