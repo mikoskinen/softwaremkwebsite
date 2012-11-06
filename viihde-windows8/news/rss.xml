@@ -14,7 +14,7 @@
 
 &lt;p&gt;&lt;img src="/viihde-windows8/news/content/release-2.png" alt="release-2"/&gt;&lt;/p&gt;
 </description>
-			<pubDate>Mon, 03 Sep 2012 14:41:00 +0100</pubDate>
+			<pubDate>Mon, 03 Sep 2012 14:41:00 +0300</pubDate>
 		</item>
 		<item>
 			<guid isPermaLink="false">windows-8-viihde-saatavilla</guid>
@@ -25,7 +25,20 @@
 
 &lt;p&gt;Sovelluksen avulla voit selata TV-opasta, lisätä nauhoituksia, tarkistaa videovuokraamon uutuudet ja tehdä paljon muuta. Sovellus on suunnattu TV:n ystäville. Vaikka et olisi Viihde-palvelun tilaaja, voit silti selata TV-opasta ja tutkailla kanavien suosituimpia ohjelmia. Voit lisätä mielenkiintoisesta ohjelmasta muistutuksen, joka näytettään hieman ennen ohjelman alkua.&lt;/p&gt;
 </description>
-			<pubDate>Mon, 03 Sep 2012 14:41:00 +0100</pubDate>
+			<pubDate>Mon, 03 Sep 2012 14:41:00 +0300</pubDate>
+		</item>
+		<item>
+			<guid isPermaLink="false">windows-8-viihde-winrt-suorituskyky</guid>
+			<link>http://www.adafy.com/viihde-windows8/news/windows-8-viihde-winrt-suorituskyky</link>
+			<category>viihde-windows8</category>
+			<title>Viihde-päivitys ladattavissa. Nyt parempi suorituskyky Windows RT-tableteilla</title>
+			<description>&lt;p&gt;Viihde-sovelluksen päivitys on ladattavissa Windows Storesta. Päivitys parantaa sovelluksen suorituskykyä etenkin Windows RT -tableteilla. Päivitys parantaa muutenkin sovelluksen nopeutta ja toimintavarmuutta.&lt;/p&gt;
+
+&lt;p&gt;Kuluneella viikolla Viihde on päässyt myös esiintymään Windows Storen Spotlight-osiossa!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/viihde-windows8/news/content/release-winrt-suorituskyky.png" alt="release-winrt-suorituskyky"/&gt;&lt;/p&gt;
+</description>
+			<pubDate>Tue, 06 Nov 2012 12:00:00 +0200</pubDate>
 		</item>
 	</channel>
 </rss>
