@@ -50,5 +50,16 @@ Our first Windows 8 app is &lt;a href="apps.microsoft.com/webpdp/fi-FI/app/viihd
 </description>
 			<pubDate>Tue, 06 Nov 2012 14:54:00 +0200</pubDate>
 		</item>
+		<item>
+			<guid isPermaLink="false">aukio-windows8-spotlight</guid>
+			<link>http://www.adafy.com/news/aukio-windows8-spotlight</link>
+			<category>aukio-windows8</category>
+			<title>Aukio in Spotlight</title>
+			<description>&lt;p&gt;&lt;img src="/news/content/aukio-windows8-spotlight.png" alt="aukio-windows8-spotlight"/&gt;&lt;/p&gt;
+
+&lt;p&gt;Our Windows 8 newsreader app &lt;a href="http://www.adafy.com/aukio/"&gt;Aukio&lt;/a&gt; is currently featuring in the Spotlight section of the Windows Store. The app, released earlier this month, has been well received by the Finnish user, with an average rating of 4.5 stars.&lt;/p&gt;
+</description>
+			<pubDate>Fri, 16 Nov 2012 09:35:00 +0200</pubDate>
+		</item>
 	</channel>
 </rss>
