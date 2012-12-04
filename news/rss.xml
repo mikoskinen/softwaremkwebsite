@@ -66,7 +66,9 @@ Our first Windows 8 app is &lt;a href="apps.microsoft.com/webpdp/fi-FI/app/viihd
 			<link>http://www.adafy.com/news/aukio-windows-phone-8</link>
 			<category>aukio</category>
 			<title>Aukio-sovellus ja Windows Phone 8</title>
-			<description>&lt;p&gt;Jos käytät Aukio-uutissovellusta uudella Windows Phone 8 -puhelimella, suosittelemme tekemään sovellukseen asetusmuutoksen, jotta sovellus toimisi oikein: Asetus &lt;strong&gt;"Optimoi uutiset mobiililaiteille"&lt;/strong&gt; on käännettävä asentoon &lt;strong&gt;"Pois päältä"&lt;/strong&gt;. Valikkoon pääsee sovelluksen etusivun alapalkista.&lt;/p&gt;
+			<description>&lt;p&gt;Päivitys: Aukio-sovelluksen Windows Phone 8-optimoitu versio on ladattavissa Kaupasta.&lt;/p&gt;
+
+&lt;p&gt;Jos käytät Aukio-uutissovellusta uudella Windows Phone 8 -puhelimella, suosittelemme tekemään sovellukseen asetusmuutoksen, jotta sovellus toimisi oikein: Asetus &lt;strong&gt;"Optimoi uutiset mobiililaiteille"&lt;/strong&gt; on käännettävä asentoon &lt;strong&gt;"Pois päältä"&lt;/strong&gt;. Valikkoon pääsee sovelluksen etusivun alapalkista.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="/news/content/aukio-windows-phone-8.png" alt="aukio-windows-phone-8"/&gt;&lt;/p&gt;
 
@@ -75,6 +77,17 @@ Our first Windows 8 app is &lt;a href="apps.microsoft.com/webpdp/fi-FI/app/viihd
 &lt;p&gt;PS. Aukio on ladattavissa myös Windows 8 ja Windows RT -laitteisiin Windows Storesta hakusanalla "aukio".&lt;/p&gt;
 </description>
 			<pubDate>Thu, 22 Nov 2012 06:47:00 +0200</pubDate>
+		</item>
+		<item>
+			<guid isPermaLink="false">aukio-windows-phone-8-ladattavissa</guid>
+			<link>http://www.adafy.com/news/aukio-windows-phone-8-ladattavissa</link>
+			<category>aukio</category>
+			<title>Aukio-sovelluksen Windows Phone 8 -versio ladattavissa</title>
+			<description>&lt;p&gt;Aukio-sovelluksen Windows Phone 8 -versio on ladattavissa nyt Kaupasta. Versio korjaa mobiilikäyttöön optimoidun lukutilan ongelman. Lisäksi versio sisältä sovellukselle uuden logon, sekä mahdollisuuden kiinnittää sovellus puhelimen lukitusruutuun.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/news/content/aukio-windows-phone-8-ladattavissa.png" alt="aukio-windows-phone-8-ladattavissa"/&gt;&lt;/p&gt;
+</description>
+			<pubDate>Tue, 04 Dec 2012 07:29:00 +0200</pubDate>
 		</item>
 	</channel>
 </rss>
